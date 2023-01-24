@@ -1,0 +1,1 @@
+web: python manage.py migrate && guincorn djackets_django.wsgi
